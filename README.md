@@ -1,4 +1,14 @@
-Este projeto pertence a materia de Linguagens formais e automatos
+# Projeto de Formais e automatos 💻
 
-Este projeto  consiste em uma estrutura de Valdação de emails feitos em Python
-Neste repositório temos o arquivo main.py, onde esá todo o processo de validação
+Este projeto consiste na verificação de email em python e no jflap.
+
+Estrutura de Arquivos:
+
+~~~~
+- Main.py
+~~~~
+
+## Clonar este repositório:
+~~~~
+git clone https://github.com/LucasAugustoSS/Atividade-Pratica-Linguagens-Formais-e-Automatos 
+~~~~
