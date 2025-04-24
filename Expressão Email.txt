@@ -1,0 +1,17 @@
+Σ = {A...Z,a...z,0...9,@,.,_,-}
+
+c_mai = {A...Z}
+c_min = {a...z}
+d = {0...9}
+s = {.,_,-}
+
+L = {w | w possui
+  apenas um @,
+  qualquer elemento de Σ exceto o @ antes do @,
+  pelo menos um . depois do @,
+  nenhum . consecutivo depois do @,
+  apenas letras minúsculas, números e - entre o @ e o primeiro . depois do @,
+  apenas letras minúsculas depois dos . depois do @
+}.
+
+(c_mai U c_min U d U s)+@(c_min U d U -)+.c_min+(.c_min+)*
